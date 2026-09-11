@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/LLD/">
+    <Project Path="LLD/lld.csproj" />
+  </Folder>
+  <Project Path="CleanArchitecture/CleanArchitecture.csproj" />
+  <Project Path="Concurrency/Concurrency.csproj" />
+  <Project Path="DatabaseSchema/DatabaseSchema.csproj" />
+  <Project Path="DDD/DDD.csproj" />
+</Solution>
