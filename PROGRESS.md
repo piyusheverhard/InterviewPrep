@@ -1,6 +1,7 @@
 # Progress Log
 
 ## Mastered Concepts
+* **HLD: CAP Theorem**: Network Partitions, Trade-offs between Consistency (CP) and Availability (AP), eventual consistency, soft rate limiting via asynchronous replication.
 * **Advanced Machine Coding**: In-Memory Message Broker (Kafka Clone), lock striping via Partitions, offset tracking per Consumer Group, thread-safe data structures (`ConcurrentDictionary` vs `ReaderWriterLockSlim`).
 * **API Design & Contracts**: Idempotency, Idempotency Keys, Handling distributed retries (At-Least-Once delivery), Race conditions in webhook processing.
 * **Database Schema & Concurrency**: Lost Updates, Pessimistic Locking vs Optimistic Concurrency Control (OCC), Compare-and-Swap (CAS), EF Core `DbUpdateConcurrencyException`.
