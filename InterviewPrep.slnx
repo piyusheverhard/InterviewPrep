@@ -2,8 +2,10 @@
   <Folder Name="/LLD/">
     <Project Path="LLD/lld.csproj" />
   </Folder>
+  <Project Path="ApiDesign/ApiDesign.csproj" />
   <Project Path="CleanArchitecture/CleanArchitecture.csproj" />
   <Project Path="Concurrency/Concurrency.csproj" />
   <Project Path="DatabaseSchema/DatabaseSchema.csproj" />
   <Project Path="DDD/DDD.csproj" />
+  <Project Path="MachineCoding/MachineCoding.csproj" />
 </Solution>

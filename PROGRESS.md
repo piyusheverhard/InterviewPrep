@@ -1,6 +1,8 @@
 # Progress Log
 
 ## Mastered Concepts
+* **Advanced Machine Coding**: In-Memory Message Broker (Kafka Clone), lock striping via Partitions, offset tracking per Consumer Group, thread-safe data structures (`ConcurrentDictionary` vs `ReaderWriterLockSlim`).
+* **API Design & Contracts**: Idempotency, Idempotency Keys, Handling distributed retries (At-Least-Once delivery), Race conditions in webhook processing.
 * **Database Schema & Concurrency**: Lost Updates, Pessimistic Locking vs Optimistic Concurrency Control (OCC), Compare-and-Swap (CAS), EF Core `DbUpdateConcurrencyException`.
 * **Domain-Driven Design (DDD)**: Rich Domain Models, Entities (Identity Equality) vs Value Objects (Structural Equality & Immutability), preserving invariants.
 * **SOLID, DI, and Clean Architecture**: Ports & Adapters, resolving DI ambiguity via distinct interfaces, building resilient fallback flows.
