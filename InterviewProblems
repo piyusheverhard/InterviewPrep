@@ -1,0 +1,33 @@
+Rubrik , 𝗦𝗪𝗘 𝗟𝟰. 𝗠𝗲𝗱𝗶𝗮𝗻 𝟵𝟴 𝗟𝗣𝗔, 𝘁𝗼𝗽 𝗼𝗳 𝗿𝗮𝗻𝗴𝗲 𝟭𝟱𝟳 𝗟𝗣𝗔.
+1. Implement a bounded queue. Then build a thread pool on top of it. No ExecutorService.
+2. Design a job scheduler that respects dependencies and executes independent jobs concurrently.
+3. A playground supports one team at a time, with a maximum of ten players. Assign players without starvation.
+4. Searchers, inserters and deleters operate on one linked list. Searches run concurrently. One insert at a time while searches continue. A delete blocks all operations.
+5. Implement file read/write using offsets. Then make it multithreaded.
+6. HLD: degrees of separation between two users at billion-user scale.
+
+Uber , 𝗦𝗗𝗘-𝟮 𝗟𝟰. 𝗠𝗲𝗱𝗶𝗮𝗻 𝟳𝟯 𝗟𝗣𝗔 𝗶𝗻 𝗜𝗻𝗱𝗶𝗮.
+7. Alien Dictionary. Topological sort, with executable code.
+8. Find the median from a data stream. Then a loose median in constant time and space.
+9. Cheapest Flights Within K Stops.
+10. Longest subarray where max minus min remains within a limit.
+11. Machine coding: in-memory Twitter createUser, postTweet, getNewsFeed, follow, unfollow.
+12. Machine coding: train and platform scheduler. Working implementation in 60–75 minutes.
+13. Machine coding: in-memory pull-based queue with multiple publishers and consumers.
+14. Machine coding: implement mkdir, pwd and cd. cd supports wildcards.
+15. HLD: Uber Eats homepage. Geohashing, schema design, and SQL vs NoSQL trade-offs.
+
+Nutanix . 𝗠𝗲𝗱𝗶𝗮𝗻 𝟱𝟭 𝗟𝗣𝗔 𝗶𝗻 𝗜𝗻𝗱𝗶𝗮.
+16. Number of Islands. Then implement it in Java, without prior notice.
+RIPPLING, SDE-2:
+17. Three coding rounds. Questions directly from LeetCode. The expectation: optimal, clean, bug-free, completed solutions.
+THOUGHTSPOT:
+18. LLD: design a rule engine.
+19. HLD: design a generic workflow system, similar to AWS Step Functions.
+
+ServiceNow , 𝗜𝗖𝟮:
+20. Round one starts with a Java snippet. Explain its behavior.
+
+Microsoft , 𝗟𝟲𝟭/𝟲𝟮:
+21. Minimum Meeting Rooms variant, followed by Spotify LLD.
+22. HLD: URL shortener, with deep dives into multi-region architecture and ID generation.
