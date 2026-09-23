@@ -1,0 +1,7 @@
+interface:
+  display_name: "Backend Interview Coach"
+  short_description: "Resume the next backend interview session"
+  default_prompt: "Use $teach to resume my next interview-preparation session."
+
+policy:
+  allow_implicit_invocation: true

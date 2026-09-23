@@ -1,21 +1,88 @@
 # Progress Log
 
-## Mastered Concepts
-* **HLD: CAP Theorem**: Network Partitions, Trade-offs between Consistency (CP) and Availability (AP), eventual consistency, soft rate limiting via asynchronous replication.
-* **Advanced Machine Coding**: In-Memory Message Broker (Kafka Clone), lock striping via Partitions, offset tracking per Consumer Group, thread-safe data structures (`ConcurrentDictionary` vs `ReaderWriterLockSlim`).
-* **API Design & Contracts**: Idempotency, Idempotency Keys, Handling distributed retries (At-Least-Once delivery), Race conditions in webhook processing.
-* **Database Schema & Concurrency**: Lost Updates, Pessimistic Locking vs Optimistic Concurrency Control (OCC), Compare-and-Swap (CAS), EF Core `DbUpdateConcurrencyException`.
-* **Domain-Driven Design (DDD)**: Rich Domain Models, Entities (Identity Equality) vs Value Objects (Structural Equality & Immutability), preserving invariants.
-* **SOLID, DI, and Clean Architecture**: Ports & Adapters, resolving DI ambiguity via distinct interfaces, building resilient fallback flows.
-* **GoF Design Patterns**: Creational (Builder, Factory), Structural (Decorator, Facade), Behavioral (Strategy, Observer, Command, State, Chain of Responsibility).
-* **Concurrency Foundations**: OS Memory Architecture (Stack vs Heap), Atomicity, Race Conditions.
-* **Synchronization Primitives**: Locks, Interlocked, SemaphoreSlim, ReaderWriterLockSlim.
-* **Modern .NET Concurrency**: async/await, Task, Thread Pool management.
-* **Concurrency Control**: Pessimistic (Locks), Optimistic (CAS loops), MVCC.
+## Resume Here
 
-## Completed Challenges
-* Thread-Safe LRU Cache
-* Tic-Tac-Toe
-* Parking Lot
-* Token Bucket Rate Limiter
-* Notification Service
+- **Cycle:** 2026-09-23 to 2026-10-06
+- **Current day:** Day 1 — Parking Lot LLD diagnostic
+- **Status:** Scheduled
+- **Stage:** `not_started`
+- **Level:** Begin at SDE1 core; apply SDE2 pressure tests after the core is coherent
+- **Last checkpoint:** Repository audit and curriculum setup completed
+- **Next action:** Present the Parking Lot prompt and wait for the candidate's clarification questions
+- **Today's cap:** One problem; stop after feedback or one focused retry
+- **Revision due:** None yet
+
+## Current State
+
+Repository audit completed on 2026-09-23. The dated two-week cycle is ready to begin. No exercise in the new cycle has been evaluated yet.
+
+## Demonstrated Strengths
+
+- Recognizes shared-state races and the need to protect compound data structures with one synchronization boundary.
+- Understands why an LRU `Get` mutates state and why partition-local locks improve concurrency.
+- Models nondestructive message consumption using independent offsets.
+- Uses dependency inversion, ports/adapters, factories, strategies, and composable behavior in design discussions.
+- Understands value-object immutability, domain invariants, optimistic concurrency, idempotency keys, and unique-key deduplication at a conceptual level.
+- Has relevant production context in C#, .NET, AWS SQS, event-driven services, microservices, migrations, concurrency, and distributed systems.
+
+## Highest-Priority Gaps to Validate or Improve
+
+- Produce compiling, internally consistent interview code with constructor validation and preserved invariants.
+- Identify atomic and transactional boundaries, especially across business updates and idempotency records.
+- Design recovery from crashes, abandoned work, duplicate in-flight requests, and partial failures.
+- Use deterministic dependencies such as clocks when they materially improve reasoning and verification.
+- Build complete HLD answers: requirements, estimates, APIs, schema, architecture, bottlenecks, failures, observability, and evolution.
+- Make trade-offs concrete and calibrate depth for SDE1 versus SDE2.
+
+These are evidence gaps from the repository, not assumptions about concepts the candidate has never encountered.
+
+## Existing Work Status
+
+### Conceptually Covered
+
+- GoF patterns: Builder, Factory Method, Decorator, Facade, Chain of Responsibility, Strategy, Observer, Command, and State
+- Concurrency foundations and common .NET synchronization primitives
+- CAP theorem and eventual consistency basics
+- Clean Architecture and dependency inversion basics
+- DDD entity and value-object basics
+- Optimistic concurrency and idempotency basics
+
+### Implemented but Needs Repair or Re-evaluation
+
+- Tic-Tac-Toe
+- Parking Lot
+- LRU Cache and thread-safe LRU Cache
+- Sliding-window Rate Limiter
+- Notification Service
+- Receipt Dispatcher
+- Bank Account and Money domain model
+- Ride assignment with concurrency control
+- Stripe-style webhook processor
+- In-memory simple and partitioned message brokers
+
+### Not Yet Attempted in This Repository
+
+- Bounded queue and thread pool
+- Dependency-aware job scheduler
+- Rule engine
+- Twitter/news feed
+- Splitwise
+- Complete URL shortener HLD
+- Uber Eats homepage HLD
+- Workflow system HLD
+- Billion-user degrees-of-separation HLD
+- Transactional outbox, saga, and CQRS exercises
+
+## Session Log
+
+Add one entry after each evaluated session:
+
+```text
+Date / Exercise:
+Level attempted: SDE1 or SDE2
+What was demonstrated:
+What broke under challenge:
+One correction to retain:
+Rubric scores:
+Next action:
+```
